@@ -141,6 +141,7 @@ $j(document).ready( function() {
 	</c:if>
 	<c:if test="${param.patientId != null}">
 		<input type="hidden" name="patientId" value="<c:out value="${param.patientId}" />"/>
+		<form:hidden path="patient" />
 	</c:if>
 	<br/><br/>
 	</c:if>
@@ -337,7 +338,9 @@ $j(document).ready( function() {
 
 <c:if test="${ canDelete }">
 	<div id="delete-dialog" title="<openmrs:message code="general.void"/> <openmrs:message code="Visit"/>">
-		<form action="voidVisit.htm" method="post">
+		<form action="voidVisit.htm" method="post" modelAttribute="visit">
+				<form:hidden path="startDatetime" />
+				<form:hidden path="patient" />
 			<input type="hidden" name="visitId" value="${visit.visitId}"/>
 			<input type="hidden" name="patientId" value="<c:out value="${visit.patient.patientId}" />"/>
 			<p><openmrs:message code="Visit.delete.info" arguments="${encounterCount}, ${observationCount}"/></p>

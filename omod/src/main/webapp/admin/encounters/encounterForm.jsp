@@ -478,15 +478,11 @@
 						</option>
 					</c:forEach>
 				</select>
-				<span id="roleErrors" class="error" style="display: none;">
-					<openmrs:message code="Encounter.provider.selectEncounterRole"/>
-				</span>
+			
 			</td>
 			<td>
 			<input id="providers[x]" type="text" name="providerName"  />
-			<span id="providerErrors" class="error" style="display: none;">
-				<openmrs:message code="Encounter.provider.selectProvider"/>
-			</span>
+			
 			<input id="providerIds[x]" type="hidden" name="providerIds"  />
 			</td>
 			<td id="identifierColumn-[x]"></td>

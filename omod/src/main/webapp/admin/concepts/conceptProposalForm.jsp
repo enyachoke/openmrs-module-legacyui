@@ -69,10 +69,6 @@
 						<td>${conceptProposal.encounter.location}</td>
 					</tr>
 					<tr>
-						<th><openmrs:message code="Encounter.provider"/></th>
-						<td><c:out value="${conceptProposal.encounter.provider.personName}" /></td>
-					</tr>
-					<tr>
 						<th><openmrs:message code="Encounter.datetime"/></th>
 						<td><openmrs:formatDate date="${conceptProposal.encounter.encounterDatetime}" type="long" /></td>
 					</tr>

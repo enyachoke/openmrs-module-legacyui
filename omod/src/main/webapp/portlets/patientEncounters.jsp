@@ -131,7 +131,7 @@ Parameters
 								<th class="hidden"> hidden Sorting Order (by Encounter.datetime) </th>
 								<th class="encounterTypeHeader"> <openmrs:message code="Encounter.type"/>     </th>
 								<th class="encounterVisitHeader"><openmrs:message code="Encounter.visit"/></th>
-								<th class="encounterProviderHeader"> <openmrs:message code="Encounter.provider"/> </th>
+				
 								<th class="encounterFormHeader"> <openmrs:message code="Encounter.form"/>     </th>
 								<th class="encounterLocationHeader"> <openmrs:message code="Encounter.location"/> </th>
 								<th class="encounterEntererHeader"> <openmrs:message code="Encounter.enterer"/>  </th>

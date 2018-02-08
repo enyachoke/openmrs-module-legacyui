@@ -262,8 +262,7 @@ tr.bottom-encounter-in-visit td:last-child {
 									code="Encounter.datetime" /></th>
 							<th class="encounterTypeHeader"><openmrs:message
 									code="Encounter.type" /></th>
-							<th class="encounterProvidersHeader"><openmrs:message
-									code="Encounter.providers" /></th>
+						
 							<th class="encounterLocationHeader"><openmrs:message
 									code="Encounter.location" /></th>
 							<th class="encounterEntererHeader"><openmrs:message
